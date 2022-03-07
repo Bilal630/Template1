@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto&display=swap');
+@media  (min-width: 720px) and (max-width: 1140px) {
+    .container{
+        width: 834px;
+        
+        justify-content: center;
+        }
+    .resim1{
+            display: none;
+        }
+        .fotleft{
+            margin-right: 360px;
+        }
+    
+        
+    
+}
+@media  
+    (max-device-width : 480px) {
+     .container {
+        width: 375px;
+        margin-left: 110px;
+         flex-direction: column;
+        align-content: center;
+        
+       
+     }
+     
+     .left{
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+     }
+     .solp{
+         width: 600px;
+         
+         
+     }
+     .sagsekil{
+         margin-top: 100px ;
+         margin-left: 100px;
+     }
+     .yazicontainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 150px;
+        flex-direction: column;
+     }
+     .mesafe{
+         margin-right: 70px;
+     }
+     .axrinci{
+         flex-wrap: wrap;
+     }
+     .fotleft{
+         height: 400px;
+     }
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1192px;
+    margin: 90px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left{
+    width: 658px;
+    height: 396px;
+    left: 123px;
+    top: 202px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.sagsekil{
+    width: 314px;
+    height: 315px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.fotleft{
+    
+    display: flex;
+    margin-top: 150px;
+}  
+.resim1{
+    width: 232px;
+    height: 203px;  
+} 
+
+.yazicontainer{
+    display: flex;
+    gap: 60px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+}
